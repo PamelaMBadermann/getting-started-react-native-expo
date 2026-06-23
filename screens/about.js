@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { View, Text, Button } from 'react-native';
+import styles from '../styles/styles';
 
 function AboutScreen({navigation}) {
   return (
-		<View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+		<View style={styles.container}>
 			<Text>About Screen</Text>
 		</View>
 	);
